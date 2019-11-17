@@ -146,11 +146,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RGd-rv-mKC" customClass="LOTAnimatedControl">
-                                <rect key="frame" x="20" y="248" width="374" height="367"/>
+                                <rect key="frame" x="20" y="242" width="374" height="373"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUg-sF-xeX">
-                                <rect key="frame" x="20" y="130" width="374" height="52"/>
+                                <rect key="frame" x="20" y="124" width="374" height="52"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="45"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -158,7 +158,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.69411764710000001" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="TUg-sF-xeX" firstAttribute="top" secondItem="ilJ-Ya-W9q" secondAttribute="top" constant="86" id="0XD-pE-d34"/>
+                            <constraint firstItem="TUg-sF-xeX" firstAttribute="top" secondItem="ilJ-Ya-W9q" secondAttribute="top" constant="80" id="0XD-pE-d34"/>
                             <constraint firstItem="Cey-OG-PFS" firstAttribute="top" secondItem="RGd-rv-mKC" secondAttribute="bottom" constant="27" id="5RM-Wk-3qe"/>
                             <constraint firstItem="RGd-rv-mKC" firstAttribute="centerX" secondItem="NcI-ph-lzo" secondAttribute="centerX" id="DHH-WE-jxl"/>
                             <constraint firstAttribute="bottom" secondItem="RGd-rv-mKC" secondAttribute="bottom" constant="281" id="I7u-jp-bKS"/>

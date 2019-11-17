@@ -35,6 +35,7 @@ class DrawViewController: UIViewController {
     @objc private func helloReceived() {
         recognizeDrawing()
     }
+    
     func setupVision() {
         // load MNIST model for the use with the Vision framework
         guard let visionModel = try? VNCoreMLModel(for: MNISTClassifier().model) else {fatalError("can not load Vision ML model")}
