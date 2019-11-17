@@ -1,4 +1,4 @@
-# NumberSense (LehmanHacks'19 Finalist)
+# NumberSense (LehmanHacks'19 Finalist & MLH Winner)
 
 Using CoreML machine learning and and MNIST library to recognize handwriting.
 
